@@ -1,0 +1,482 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    /*font至少需要两个*/
+    font:16px "Microsoft YaHei UI","sans-serif";
+    color:#333333;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1030156 */
+    src: url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.eot');
+    src: url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030156_vm0nsdba7z.svg#iconfont') format('svg');
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+/* 默认样式*/
+.nav
+{
+    /*!*随浏览器的变化而变化*!  */
+    width:100%;
+    height:79px;
+    /*background: rgba(0,0,0,0.15);*/
+    background: #ffffff;
+    position:fixed;
+    top:0;
+    border-bottom:1px solid #e4eaec;
+
+}
+.navContent
+{
+    width:1170px;
+    height:100%;
+    margin: 0 auto;
+
+}
+.logo
+{
+    width:150px;
+    height:50px;
+    float:left;
+    margin-top:14px;
+}
+/*行内元素不具有宽高属性*/
+.logo a
+{
+    display: block;
+    width:100%;
+    height:100%;
+
+}
+.logo a img
+{
+    width:100%;
+    height:100%;
+}
+.navList
+{
+    width:602px;
+    height:100%;
+    float:right;
+}
+.navList li
+{
+    float:left;
+    width:86px;
+    height:100%;
+}
+.navList li a
+{
+    display:block;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:79px;
+    font-size:14px;
+    transition: .5s;
+}
+.navList li a:hover
+{
+    color:#16b0bc;
+}
+
+.banner
+{
+    width:100%;
+    height:120px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:79px;
+}
+.banner h1
+{
+    font-size:35px;
+    font-weight:400;
+    color:#F67A82;
+}
+.header
+{
+    width:100%;
+    height:759px;
+    padding:30px 0;
+    background-color: #f2f2f2;
+}
+.header .header1
+{
+    width:1170px;
+    height:759px;
+    margin:0 auto;
+}
+.header1 .flowerLanguage1
+{
+    width:720px;
+    height:699px;
+    padding:30px;
+    background:#ffffff;
+    float:left;
+}
+
+.header1 .flowerLanguage2
+{
+    width:300px;
+    height:404px;
+    padding:30px;
+    margin-left:30px;
+    float: left;
+    background: #ffffff;
+}
+.flowerLanguage1 .flowerComment
+{
+    width:720px;
+    height:679px;
+    margin-bottom:20px;
+}
+.flowerComment .flowerComment1
+{
+    width:718px;
+    height:57px;
+    padding:10px 0;
+    background-color: #fff;
+    border:1px solid transparent;
+    border-bottom-color: #e4eaec;
+}
+.flowerComment1 .flowerComment2
+{
+    width:46px;
+    height:53px;
+    float:left;
+}
+.flowerComment2 span
+{
+    width:36px;
+    height:36px;
+    font-size: 36px;
+    color: #a3afb7;
+    font-family:"iconfont";
+}
+.flowerComment1 .flowerComment3
+{
+    width:672px;
+    height:53px;
+    float:left;
+}
+.flowerComment3 h4
+{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+    margin-bottom:5px;
+}
+.flowerComment3 p
+{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom:11px;
+}
+.flowerComment3 .flowerLine
+{
+    padding-left:20px;
+    float: right;
+    font-weight:bold;
+    font-size:75%;
+    line-height: 1;
+    color: #a3afb7;
+}
+
+
+
+.flowerComment .flowerComment4
+{
+    width:718px;
+    height:120px;
+    padding:10px 0;
+    background-color: #fff;
+    border:1px solid transparent;
+    border-bottom-color: #e4eaec;
+}
+.flowerComment4 .flowerComment2
+{
+    width:46px;
+    height:53px;
+    float:left;
+}
+.flowerComment2 span
+{
+    width:36px;
+    height:36px;
+    font-size: 36px;
+    color: #a3afb7;
+    font-family:"iconfont";
+}
+.flowerComment1 .flowerComment3
+{
+    width:672px;
+    height:53px;
+    float:left;
+}
+.flowerComment3 h4
+{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+    margin-bottom:5px;
+}
+.flowerComment3 p
+{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom:11px;
+}
+.flowerComment3 .flowerLine
+{
+    padding-left:20px;
+    float: right;
+    font-weight:bold;
+    font-size:75%;
+    line-height: 1;
+    color: #a3afb7;
+}
+.flowerComment3 .flowerPl
+{
+    width:630px;
+    height:21px;
+    padding:20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    float:right;
+    margin-bottom: 0;
+    border-radius: 3px;
+    font-size:14px;
+    line-height: 21px;
+}
+
+
+
+.flowerComment .flowerComment5
+{
+    width:718px;
+    height:141px;
+    padding:10px 0;
+    background-color: #fff;
+    border:1px solid transparent;
+    border-bottom-color: #e4eaec;
+}
+.flowerComment5 .flowerComment2
+{
+    width:46px;
+    height:53px;
+    float:left;
+}
+.flowerComment2 span
+{
+    width:36px;
+    height:36px;
+    font-size: 36px;
+    color: #a3afb7;
+    font-family:"iconfont";
+}
+.flowerComment1 .flowerComment3
+{
+    width:672px;
+    height:53px;
+    float:left;
+}
+.flowerComment3 h4
+{
+    font-size:14px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: #37474f;
+    margin-bottom:5px;
+}
+.flowerComment3 p
+{
+    font-size: 14px;
+    color: #76838f;
+    margin-bottom:11px;
+}
+.flowerComment3 .flowerLine
+{
+    padding-left:20px;
+    float: right;
+    font-weight:bold;
+    font-size:75%;
+    line-height: 1;
+    color: #a3afb7;
+}
+.flowerComment3 .flowerPl
+{
+    width:630px;
+    height:21px;
+    padding:20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    float:right;
+    margin-bottom: 0;
+    border-radius: 3px;
+    font-size:14px;
+    line-height: 21px;
+}
+.flowerComment3 .flowerP2
+{
+    width:630px;
+    height:42px;
+    padding:20px;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    float:right;
+    margin-bottom: 0;
+    border-radius: 3px;
+    font-size:14px;
+    line-height: 21px;
+}
+.flowerLanguage2 .form-group
+{
+    width:300px;
+    height:36px;
+    margin-bottom: 20px;
+}
+.form-group .form-group1
+{
+    width: 268px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.flowerLanguage2 .form-control
+{
+    width:300px;
+    height:124px;
+    margin-bottom: 20px;
+}
+.form-control .form-control1
+{
+    display: block;
+    width: 268px;
+    height: 110px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius: 3px;
+}
+.flowerLanguage2 .form-YZM
+{
+    width:300px;
+    height:36px;
+    margin-bottom:20px;
+}
+.form-YZM .form-group3
+{
+    width:189px;
+    height:36px;
+    float:left;
+}
+.form-group3 .form-group4
+{
+    width: 157px;
+    height: 22px;
+    padding: 6px 15px;
+    font-size: 14px;
+    line-height: 1.57142857;
+    color: #76838f;
+    background-color: #fff;
+    border: 1px solid #e4eaec;
+    border-radius:3px 0 0 3px;
+    float:left;
+}
+.form-YZM .form-YZM1
+{
+    width:80px;
+    height:22px;
+    padding:6px 15px;
+    line-height: 1;
+    background-color: #f3f7f9;
+    border: 1px solid #e4eaec;
+    border-radius:0 3px 3px 0;
+    float:left;
+    border-left:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flowerLanguage2 a .form-sumbit
+{
+    width:300px;
+    height:36px;
+    background: #62a8ea;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:14px;
+}
+.flowerLanguage2 a .form-sumbit:hover
+{
+    background: rgba(98,168,234,0.8);
+    transition: 0.5s;
+}
+.last
+{
+    width:100%;
+    height:181px;
+    background:#f5f5f5;
+}
+.lastTop
+{
+    background: white;
+    border-top:1px solid #f0f2f5;
+    height:20px;
+}
+.lastIcons
+{
+    width: 100%;
+    height:46px;
+    margin-top:45px;
+    text-align: center;
+    padding:5px 0;
+}
+.lastBottom  .lastIcons .lasticon a img
+{
+    width:26px;
+    height:26px;
+    margin-right:15px;
+}
+.lasticon p
+{
+    color:#aaaaaa;
+    font-size:14px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+.lasticon pre{
+    font-family: "Microsoft YaHei UI";
+    font-size:14px;
+    margin-top:10px;
+}
+.lasticon  pre:hover
+{
+    text-decoration:underline;
+    color:#000000;
+}

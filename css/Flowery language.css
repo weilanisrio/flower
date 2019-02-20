@@ -1,0 +1,593 @@
+html,body,h1,h2,h3,h4,h5,h6,p,pre,ol,ul,li,form,input,textarea
+{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+body{
+    /*font至少需要两个*/
+    font:16px "Microsoft YaHei UI","sans-serif";
+    color:#333333;
+}
+@font-face {
+    font-family: 'iconfont';  /* project id 1030156 */
+    src: url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.eot');
+    src: url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.woff') format('woff'),
+    url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_1030156_nekdcrdpyca.svg#iconfont') format('svg');
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+/* 默认样式*/
+.nav
+{
+    /*!*随浏览器的变化而变化*!  */
+    width:100%;
+    height:79px;
+    /*background: rgba(0,0,0,0.15);*/
+    background: #ffffff;
+    position:fixed;
+    top:0;
+    border-bottom:1px solid #e4eaec;
+
+}
+.navContent
+{
+    width:1170px;
+    height:100%;
+    margin: 0 auto;
+
+}
+.logo
+{
+    width:150px;
+    height:50px;
+    float:left;
+    margin-top:14px;
+}
+/*行内元素不具有宽高属性*/
+.logo a
+{
+    display: block;
+    width:100%;
+    height:100%;
+
+}
+.logo a img
+{
+    width:100%;
+    height:100%;
+}
+.navList
+{
+    width:602px;
+    height:100%;
+    float:right;
+}
+.navList li
+{
+    float:left;
+    width:86px;
+    height:100%;
+}
+.navList li a
+{
+    display:block;
+    width:100%;
+    height:100%;
+    text-align: center;
+    line-height:79px;
+    font-size:14px;
+    transition: .5s;
+}
+.navList li a:hover
+{
+    color:#16b0bc;
+}
+.banner
+{
+    width:100%;
+    height:120px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:79px;
+}
+.banner h1
+{
+    font-size:35px;
+    font-weight:400;
+    color:#F67A82;
+}
+.header
+{
+    width:100%;
+    height:2017px;
+    padding:30px 0;
+    background-color: #f2f2f2;
+}
+.header .header1
+{
+    width:1170px;
+    height:2017px;
+    margin:0 auto;
+}
+.header1 .flowerLanguage1
+{
+    width:817.5px;
+    height:1957px;
+    padding:30px;
+    float:left;
+    background: #ffffff;
+}
+.header1 .flowerLanguage2
+{
+    width:222.5px;
+    height:314px;
+    padding:20px;
+    margin-left:30px;
+    float:left;
+    background: #ffffff;
+}
+.flowerLanguage1 .flowerList
+{
+    width:817.5px;
+    height:1906px;
+    margin-bottom:11px;
+}
+.flowerList .flowerItem
+{
+    width:817.5px;
+    height:160px;
+    padding-bottom:30px;
+    border-bottom:1px solid #f0f2f5;
+    margin-bottom:30px;
+}
+.flowerItem .flowerItem1
+{
+    width:160px;
+    height:160px;
+    padding-right:20px;
+    float:left;
+}
+.flowerItem1 .flowerImg
+{
+    width:160px;
+    height:160px;
+}
+.flowerItem .h4
+{
+    width:637px;
+    height:26px;
+    margin-bottom:20px;
+    float:left;
+}
+.h4 a
+{
+    font-size:22px;
+    color:#2a333c;
+    font-weight:400;
+}
+.h4 a:hover
+{
+    color:#62abea;
+    text-decoration: underline;
+}
+.flowerItem .p1
+{
+    width:637px;
+    height:48px;
+    margin-bottom:10px;
+    float:left;
+    font-size:16px;
+    color:#76838f;
+    font-weight:300;
+}
+.flowerItem .flowerName
+{
+    width:637px;
+    height:24px;
+    float:left;
+}
+.flowerName span
+{
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName1
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName2
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+
+}
+.flowerName2 span
+{
+    font-family: "iconfont";
+    width:16px;
+    height:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName2 .p3
+{
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerList .flowerItem2
+{
+    width:817.5px;
+    height:176px;
+    padding-bottom:30px;
+    border-bottom:1px solid #f0f2f5;
+    margin-bottom:30px;
+}
+.flowerItem2 .flowerItem1
+{
+    width:160px;
+    height:176px;
+    padding-right:20px;
+    float:left;
+}
+.flowerItem1 .flowerImg
+{
+    width:160px;
+    height:160px;
+}
+.flowerItem2 .h4
+{
+    width:637px;
+    height:26px;
+    margin-bottom:20px;
+    float:left;
+}
+.h4 a
+{
+    font-size:22px;
+    color:#2a333c;
+    font-weight:400;
+}
+.h4 a:hover
+{
+    color:#62abea;
+    text-decoration: underline;
+}
+.flowerItem2 .p1
+{
+    width:637px;
+    height:96px;
+    margin-bottom:10px;
+    float:left;
+    font-size:16px;
+    color:#76838f;
+    font-weight:300;
+}
+.flowerItem2 .flowerName
+{
+    width:637px;
+    height:24px;
+    float:left;
+}
+.flowerName span
+{
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName1
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName2
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+
+}
+.flowerName2 span
+{
+    font-family: "iconfont";
+    width:16px;
+    height:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName2 .p3 {
+    font-size: 16px;
+    color: #a3afb7;
+    font-weight: 300;
+}
+.flowerList .flowerItem3
+{
+    width:817.5px;
+    height:200px;
+    padding-bottom:30px;
+    border-bottom:1px solid #f0f2f5;
+    margin-bottom:30px;
+}
+.flowerItem3 .flowerItem1
+{
+    width:160px;
+    height:200px;
+    padding-right:20px;
+    float:left;
+}
+.flowerItem1 .flowerImg
+{
+    width:160px;
+    height:160px;
+}
+.flowerItem3 .h4
+{
+    width:637px;
+    height:26px;
+    margin-bottom:20px;
+    float:left;
+}
+.h4 a
+{
+    font-size:22px;
+    color:#2a333c;
+    font-weight:400;
+}
+.h4 a:hover
+{
+    color:#62abea;
+    text-decoration: underline;
+}
+.flowerItem3 .p1
+{
+    width:637px;
+    height:120px;
+    margin-bottom:10px;
+    float:left;
+    font-size:16px;
+    color:#76838f;
+    font-weight:300;
+}
+.flowerItem3 .flowerName
+{
+    width:637px;
+    height:24px;
+    float:left;
+}
+.flowerName span
+{
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName1
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName .flowerName2
+{
+    margin-left:10px;
+    font-size:16px;
+    color:#a3afb7;
+    font-weight:300;
+
+}
+.flowerName2 span
+{
+    font-family: "iconfont";
+    width:16px;
+    height:16px;
+    color:#a3afb7;
+    font-weight:300;
+}
+.flowerName2 .p3 {
+    font-size: 16px;
+    color: #a3afb7;
+    font-weight: 300;
+}
+.flowerLanguage2 .flowerSearch
+{
+    width:222.5px;
+    height:36px;
+    margin-bottom:20px;
+    position: relative;
+}
+.flowerSearch span
+{
+    width:20px;
+    height:36px;
+    font-family: "iconfont";
+    padding:0 10px;
+    float:right;
+    color:#2a333c;
+    line-height: 36px;
+    position: absolute;
+    top:0;
+    right:0;
+}
+.flowerSearch .flowerSearch1
+{
+    border-radius: 200px;
+    width:155.5px;
+    height:22px;
+    border: 1px solid #e4eaec;
+    float:left;
+    padding:6px 50px 6px 15px;
+    font-size: 14px;
+    outline: none;
+}
+.flowerLanguage2 .flowerTui
+{
+    width:222.5px;
+    height:161px;
+    padding:20px 0;
+    border-top: 1px solid #f0f2f5;
+    border-bottom: 1px solid #f0f2f5;
+    margin:20px 0;
+}
+.flowerTui h3
+{
+    width:222.5px;
+    height:21px;
+    font-size: 18px;
+    font-weight: 300;
+    margin:0;
+    color: #37474f;
+}
+.flowerTui .flowerTui1
+{
+    width:222.5px;
+    height:130px;
+    margin-top:10px;
+}
+.flowerTui1 .flowerTui2
+{
+    width:190.5px;
+    height:22px;
+    padding:10px 15px;
+    border:1px solid #e4eaec;
+    margin-bottom: -1px;
+}
+.flowerTui2 a
+{
+    color: #2a333c;
+    font-size: 15px;
+}
+.flowerTui2 a:hover
+{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+.flowerLanguage2 .flowerCircle
+{
+    width:222.5px;
+    height:24px;
+    margin-bottom:10px;
+}
+.flowerCircle a
+{
+    font-size: 16px;
+    color: #2a333c;
+}
+.flowerCircle a:hover
+{
+    color: #62a8ea;
+    text-decoration: underline;
+}
+.flowerLanguage1 .page
+{
+    margin:0 auto;
+    text-align: center;
+    line-height:55px;
+}
+.page .flowerPage1
+{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    background: #fff;
+    color: #ccd5db;
+    cursor: default;
+    text-align: center;
+    font-size:14px;
+}
+.page .flowerPage2
+{
+    background: #f86867;
+    border-color: #f86867;
+    color: #fff;
+    cursor: default;
+
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.page .flowerPage3
+{
+    background: #fff;
+    color: #76838f;
+    cursor: default;
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    text-align: center;
+    font-size: 14px;
+}
+.page a:hover
+{
+    background-color: #f2f2f2;
+}
+
+.page .flowerPage4
+{
+    border: 1px solid #e4eaec;
+    padding: 9px 15px;
+    background: #fff;
+    color: #76838f;
+    cursor: default;
+    text-align: center;
+    font-size:14px;
+}
+.last
+{
+    width:100%;
+    height:181px;
+    background:#f5f5f5;
+}
+.lastTop
+{
+    background: white;
+    border-top:1px solid #f0f2f5;
+    height:20px;
+}
+.lastIcons
+{
+    width: 100%;
+    height:46px;
+    margin-top:45px;
+    text-align: center;
+    padding:5px 0;
+}
+.lastBottom  .lastIcons .lasticon a img
+{
+    width:26px;
+    height:26px;
+    margin-right:15px;
+}
+.lasticon p
+{
+    color:#aaaaaa;
+    font-size:14px;
+    text-align: center;
+    line-height: 1.8;
+
+}
+.lasticon pre{
+    font-family: "Microsoft YaHei UI";
+    font-size:14px;
+    margin-top:10px;
+}
+.lasticon  pre:hover
+{
+    text-decoration:underline;
+    color:#000000;
+}
